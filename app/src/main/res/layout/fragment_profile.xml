@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666999"
+    tools:context=".ProfileFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="Kebijakan untuk pelanggar parkir liar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="1. Pemberian Denda: Pengendara yang terbukti parkir liar biasanya akan dikenai denda. Besaran denda ini dapat bervariasi tergantung pada lokasi dan frekuensi pelanggaran."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="2. Pemasangan Rambu Larangan Parkir:Otoritas setempat sering memasang rambu-rambu yang jelas menunjukkan area di mana parkir dilarang. Jika ada pelanggaran di area tersebut, denda atau sanksi lain dapat diterapkan."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="3. Penggembosan atau Penguncian Roda: Di beberapa daerah, kendaraan yang parkir liar bisa digembosi atau di-lock roda-nya, sehingga pemilik kendaraan harus membayar denda atau biaya tambahan untuk membuka kunci tersebut."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="4. Penarikan Kendaraan (Towing): Kendaraan yang parkir di tempat yang dilarang dapat diangkut oleh petugas ke lokasi penyimpanan khusus. Pemilik kendaraan harus membayar denda serta biaya penarikan untuk mendapatkan kembali kendaraannya."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="490dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18sp" />
+
+
+
+</FrameLayout>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#666999"
+    tools:context=".HomeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="Pelaporan Parkir Liar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="Isi data di bawah ini untuk melaporkan parkir liar"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:fontFamily="@font/amatica_sc_bold"
+        android:gravity="center_vertical"
+        android:text="Ketentuan apa bila menyalahgunakan pelaporan ini, akan di kenakan kasus penipuan"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="330dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nama" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Plat" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Alamat" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="90dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Email" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kirim" />
+
+
+</FrameLayout>
